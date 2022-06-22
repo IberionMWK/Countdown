@@ -18,7 +18,6 @@ const counter = () => {
   hoursElem.innerHTML = twoDigits(hours);
   minutesElem.innerHTML = twoDigits(minutes);
   secondsElem.innerHTML = twoDigits(seconds);
-
 }
 
 const twoDigits = (time) => {
